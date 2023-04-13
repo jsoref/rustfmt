@@ -550,18 +550,22 @@ fn issue3226() {
     {
         {
             {
-                return Err(
-                    ErrorKind::ManagementInterfaceError("Server exited unexpectedly").into(),
-                );
+                {
+                    return Err(
+                        ErrorKind::ManagementInterfaceError("Server exited unexpectedly").into(),
+                    );
+                }
             }
         }
     }
     {
         {
             {
-                break Err(
-                    ErrorKind::ManagementInterfaceError("Server exited unexpectedlyy").into(),
-                );
+                {
+                    break Err(
+                        ErrorKind::ManagementInterfaceError("Server exited unexpectedly").into(),
+                    );
+                }
             }
         }
     }
