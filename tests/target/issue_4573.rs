@@ -27,7 +27,7 @@ use foo;
 #[cfg(not(miri))] // inline comment
 use foo;
 
-/* pre attributre */
+/* pre attribute */
 #[cfg(not(miri))]
 use foo::bar;
 
