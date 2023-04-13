@@ -2,7 +2,7 @@
 // rustfmt-wrap_comments: true
 
 pub const IFF_MULTICAST: ::c_int = 0x0000000800; // Supports multicast
-// Multicast using broadcst. add.
+// Multicast using broadcast. add.
 
 pub const SQ_CRETAB: u16 = 0x000e; // CREATE TABLE
 pub const SQ_DRPTAB: u16 = 0x000f; // DROP TABLE
