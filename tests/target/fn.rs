@@ -107,7 +107,7 @@ pub fn check_path<'a, 'tcx>(
     tcx: TyCtxt<'a, 'tcx, 'tcx>,
     path: &hir::Path,
     id: ast::NodeId,
-    cb: &mut FnMut(DefId, Span, &Option<&Stability>, &Option<Depecation>),
+    cb: &mut FnMut(DefId, Span, &Option<&Stability>, &Option<Deprecation>),
 ) {
 }
 
