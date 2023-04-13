@@ -294,7 +294,7 @@ fn repeats() {
 
 fn blocks() {
     if 1 + 1 == 2 {
-        println!("yay arithmetix!");
+        println!("yay arithmetic!");
     };
 }
 
