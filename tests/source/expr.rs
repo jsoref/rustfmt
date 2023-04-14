@@ -251,7 +251,7 @@ fn repeats() {
 
 fn blocks() {
     if 1 + 1 == 2 {
-        println!("yay arithmetix!");
+        println!("yay arithmetic!");
     };
 }
 
@@ -471,14 +471,18 @@ fn issue3226() {
     {
         {
             {
-                return Err(ErrorKind::ManagementInterfaceError("Server exited unexpectedly").into())
+                {
+                    return Err(ErrorKind::ManagementInterfaceError("Server exited unexpectedly").into())
+                }
             }
         }
     }
     {
         {
             {
-                break Err(ErrorKind::ManagementInterfaceError("Server exited unexpectedlyy").into())
+                {
+                    break Err(ErrorKind::ManagementInterfaceError("Server exited unexpectedly").into())
+                }
             }
         }
     }

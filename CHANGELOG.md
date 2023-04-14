@@ -812,7 +812,7 @@ from formatting an attribute #3665
 
 ### Fixed
 
-- Do not remove path disambiugator inside macro #3142
+- Do not remove path disambiguator inside macro #3142
 - Improve handling of Windows newlines #3141
 - Fix alignment of a struct's fields (`struct_field_align_threshold` option) with the Visual `indent_style` #3165
 - Fix a bug in formatting markdown lists within comments #3172
@@ -901,7 +901,7 @@ from formatting an attribute #3665
 
 ### Changed
 
-- Replace '--conifig-help' with '--config=help' cb10e06
+- Replace '--config-help' with '--config=help' cb10e06
 - Improve formatting of slice patterns #2912
 
 ### Fixed
@@ -945,7 +945,7 @@ from formatting an attribute #3665
 - Add max_width option for all heuristics c2ae39e
 - Add config option `format_macro_matchers` to format the metavariable matching patterns in macros 79c5ee8
 - Add config option `format_macro_bodies` to format the bodies of macros 79c5ee8
-- Format exitential type fc307ff
+- Format existential type fc307ff
 - Support raw identifiers in struct expressions f121b1a
 - Format Async block and async function 0b25f60
 
@@ -1065,7 +1065,7 @@ from formatting an attribute #3665
 - Do not collapse block around expr with condition on match arm 5b9b7d5
 - Use vertical layout for complex attributes c77708f
 - Format array using heuristics for function calls 98c6f7b
-- Implement stable ordering for impl items with the the following item priority: type, const, macro, then method fa80ddf
+- Implement stable ordering for impl items with the following item priority: type, const, macro, then method fa80ddf
 - Reorder imports by default 164cf7d
 - Group `extern crate` by default 3a138a2
 - Make `error_on_line_overflow` false by default f146711

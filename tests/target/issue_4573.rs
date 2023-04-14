@@ -2,7 +2,7 @@
 // rustmft-use_small_heuristics:Max
 // rustmft-merge_derives:false
 // These are the same rustfmt configuration options that are used
-// in the comiler as of ce39461ca75a and 8eb7c58dbb7b
+// in the compiler as of ce39461ca75a and 8eb7c58dbb7b
 // These are commits in https://github.com/rust-lang/rust
 
 #![no_std] // inner attribute comment
@@ -27,7 +27,7 @@ use foo;
 #[cfg(not(miri))] // inline comment
 use foo;
 
-/* pre attributre */
+/* pre attribute */
 #[cfg(not(miri))]
 use foo::bar;
 

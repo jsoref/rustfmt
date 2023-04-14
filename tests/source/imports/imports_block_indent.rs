@@ -1,2 +1,2 @@
 // #2569
-use apns2::request::notification::{Notificatio, NotificationBuilder, Priority, SilentNotificationBuilder};
+use apns2::request::notification::{Notification, NotificationBuilder, Priority, SilentNotificationBuilder};
