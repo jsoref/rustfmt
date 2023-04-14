@@ -13,7 +13,7 @@ fn main() {
     );
     println!(
         "sentuhaesnuthaesnutheasunteahusnaethuseantuihaesntdiastnidaetnuhaideuhsenathe。\
-         WeShouldSupportNonAsciiPunctuations§\
+         WeShouldSupportNonAsciiPunctuation§\
          ensuhatheasunteahsuneathusneathuasnuhaesnuhaesnuaethusnaetuheasnuth"
     );
     println!(
