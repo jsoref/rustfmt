@@ -4,7 +4,7 @@
 
 // #1427
 fn main() {
-  exceptaions::config(move || {
+  exceptions::config(move || {
     (
       NmiConfig {},
       HardFaultConfig {},
