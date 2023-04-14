@@ -55,7 +55,7 @@ pub fn http_fetch_async(
 fn some_func<T: Box<Trait + Bound>>(val: T) {}
 
 fn zzzzzzzzzzzzzzzzzzzz<Type, NodeType>(
-    selff: Type,
+    self: Type,
     mut handle: node::Handle<IdRef<'id, Node<K, V>>, Type, NodeType>,
 ) -> SearchStack<'a, K, V, Type, NodeType> {
 }
